@@ -1,7 +1,7 @@
 import vk_api
 import time
 
-vk = vk_api.VkApi(token='61237e51037c05363691a7b4a1e43a30a8e9e89f46fe18c4b62c26dae533411395ace7e5e3c7706197579')
+vk = vk_api.VkApi(token='')
 vk.auth()
 values = {'out': 0, 'count': 100, 'time_offset': 60}
 
